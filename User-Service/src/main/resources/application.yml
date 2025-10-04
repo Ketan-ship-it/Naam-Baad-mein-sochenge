@@ -26,6 +26,14 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 341968942001-a12vishac54msq3p8q8ks0808odf9566.apps.googleusercontent.com
+            client-secret: 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
+
 server:
   port: 9010
   servlet:
@@ -37,3 +45,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 deploy.env: "development"
+
+
+
