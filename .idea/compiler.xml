@@ -2,16 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Account-Service" />
         <module name="Payment-Method" />
+        <module name="config-server" />
         <module name="Notification-Service" />
         <module name="Api-GateWay" />
         <module name="Transaction-Service" />
         <module name="Discovery-Server" />
+      </profile>
+      <profile name="Annotation profile for User-Service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
         <module name="User-Service" />
       </profile>
     </annotationProcessing>
@@ -25,6 +35,7 @@
       <module name="Payment-Method" options="-parameters" />
       <module name="Transaction-Service" options="-parameters" />
       <module name="User-Service" options="-parameters" />
+      <module name="config-server" options="-parameters" />
     </option>
   </component>
 </project>

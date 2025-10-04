@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/Discovery-Server/pom.xml" />
         <option value="$PROJECT_DIR$/Transaction-Service/pom.xml" />
         <option value="$PROJECT_DIR$/Notification-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
       </list>
     </option>
   </component>

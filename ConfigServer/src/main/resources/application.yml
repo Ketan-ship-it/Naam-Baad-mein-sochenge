@@ -1,0 +1,20 @@
+spring.application.name: config-server
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Ketan-ship-it/Fintech-ConfigServer
+          username: Ketan-ship-it
+#          password: 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
+          default-label: main
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+
+
