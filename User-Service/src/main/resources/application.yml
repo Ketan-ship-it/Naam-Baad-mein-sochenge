@@ -31,8 +31,8 @@ spring:
       client:
         registration:
           google:
-            client-id: 341968942001-a12vishac54msq3p8q8ks0808odf9566.apps.googleusercontent.com
-            client-secret: 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
+            client-id: 
+            client-secret: 
 
 server:
   port: 9010
